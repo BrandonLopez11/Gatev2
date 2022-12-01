@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.header {
+    background: url("heroimage.jpeg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: darkred;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: green;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.welcome-text h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.welcome-text a {
+    border: 1px solid black;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.welcome-text a:hover {
+    background: #fff;
+    color: green;
+}
+
+body {
+    background: #fff;
+}
+
+.contact {
+    margin: 100px 16px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.contact-title h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+
+.form-container {
+    background: transparent;
+    max-width: 550px;
+    margin: auto;
+    border: solid 3px white;
+}
+
+form {
+    padding-bottom: 16px;
+    display: block;
+    width: 100%;
+}
+
+.form-name,
+.form-email,
+.form-feedback {
+    position: relative;
+}
+
+.form-name:before {
+    content: "\f007";
+    color: #ddd;
+    font-family: 'fontAwesome';
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+form-email:before {
+    content: "\fld8";
+    color: #ddd;
+    font-family: 'fontAwesome';
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+form-Feedback:before {
+    content: "\f0e0";
+    color: #ddd;
+    font-family: 'fontAwesome';
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+form input:focus,
+form textarea:focus,
+form input:hover,
+form textarea:hover {}
+
+form textarea {
+    display: block;
+    width: 92%;
+    border: none;
+    transition: 0.2s;
+    margin-top: 16px;
+    height: 150px;
+    padding: 10px 16px 10px 30px;
+    color: red;
+    font-size: 30px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 3px white;
+    transition: 0.2s;
+    outline: none;
+    margin-top: 16px;
+    color: red;
+    font-size: 30px;
+}
+
+form button {
+    border: 1px solid #444;
+    transition: 0.2s;
+    padding: 10px 30px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: darkred;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+center-align {
+    text-align: center;
+}
+
+.footer {
+    background-color: green;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center
+}
+
+.items {
+    display: grid;
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    text-align: center;
+    color: rgb(253, 255, 245);
+    font-size: 25px;
+}
+
+.items img {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+td {
+    border: solid darkgray 3px;
+    padding: 15px;
+}
+
+.Menub {
+    background-image: url("contactbackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1550px 1700px;
+}
+
+.contactb {
+    background-image: url("menubackground.webp");
+    background-repeat: no-repeat;
+    background-size: 1500px 800px;
+}
+
+.form-Feedback {
+    width: 92%;
+}
+
+body {
+    color: white;
+}
